@@ -1,0 +1,11 @@
+{
+  "version": "2.0.1",
+  "upstream": {
+    "git": "https://github.com/VincentGarreau/particles.js.git",
+    "release": "2.0.1",
+    "versionFile": "package.json"
+  },
+  "_hook": {
+    "repoFullName": "VincentGarreau/particles.js"
+  }
+}
