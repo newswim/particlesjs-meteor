@@ -1,7 +1,7 @@
 // created by Vincent Garreau <vin.garreau@gmail.com>
 
 Package.describe({
-  name: 'newswim:particlejs',
+  name: 'newswim:particlesjs',
   version: '2.0.1',
   summary: 'Create & generate interactive particles.',
   git: 'https://github.com/newswim/particlesjs-meteor.git',
@@ -9,14 +9,14 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  // including older version
-  api.versionsFrom('1.2.0');
+  api.versionsFrom('1.2.1');
+  api.use('ecmascript');
   api.addFiles('particles.min.js','client');
-  // api.export('pJS', 'client');
 });
 
 Package.onTest(function(api) {
+  api.use('ecmascript');
   api.use('tinytest');
-  api.use('newswim:particlejs');
+  api.use('newswim:particlesjs');
   api.addFiles('particles-tests.js');
 });
