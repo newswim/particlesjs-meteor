@@ -4,7 +4,7 @@ Package.describe({
   name: 'newswim:particlejs',
   version: '2.0.1',
   summary: 'Create & generate interactive particles.',
-  git: 'https://github.com/newswim/particles.js',
+  git: 'https://github.com/newswim/particlesjs-meteor.git',
   documentation: 'README.md'
 });
 
