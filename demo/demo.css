@@ -1,1 +1,27 @@
 /* CSS declarations go here */
+
+body {
+  background-color: #2b82e2;
+}
+
+#particles-js {
+  /*position: absolute;*/
+  /*pointer-events: none;*/
+}
+
+.particle-wrap {
+  position: absolute;
+  pointer-events: none;
+  width: 99%;
+  height: 98%;
+}
+
+.content-wrap {
+  text-align: center;
+  background-color: rgba(228, 181, 34, 0.4);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {}

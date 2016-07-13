@@ -3,9 +3,19 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <!-- html element for Particles.js to initialize and push nodes into -->
+  <div class="particle-wrap">
+    <div id="particles-js"></div>
+  </div>
 
-  {{> hello}}
+  <!-- inner content -->
+  <div class="content-wrap">
+    <div class="inner">
+      <h1>Welcome to Meteor!</h1>
+      {{> hello}}
+    </div>
+  </div>
+
 </body>
 
 <template name="hello">
