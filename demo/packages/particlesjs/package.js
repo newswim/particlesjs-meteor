@@ -5,7 +5,7 @@ Package.describe({
   version: '2.0.1',
   summary: 'Create & generate interactive particles.',
   git: 'https://github.com/newswim/particlesjs-meteor.git',
-  documentation: 'README.md'
+  documentation: 'https://github.com/newswim/particlesjs-meteor/blob/master/README.md'
 });
 
 Package.onUse(function(api) {
