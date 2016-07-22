@@ -1,9 +1,9 @@
 ## Particles.js for METEOR
 
-For full API Docs, check out the [Particle.js repo](https://github.com/VincentGarreau/particles.js)
+For full API Docs, check out the [Particles.js repo](https://github.com/VincentGarreau/particles.js)
 
 - create an anchor html div with `id='particles-js'` (or anything you want)
-- create a settings.json (named whatever you like)
+- create a pjs-settings.json (named whatever you like)
 - put it in `/public`
 - call *particlesJS.load* on the client, like so:
 
